@@ -15,10 +15,10 @@
     </div>
     <div class="form-control form-control-check">
       <label>Set Reminder</label>
-      <input type="checkbox" v-model="reminder" name="reminder" />
+      <input  type="checkbox" v-model="reminder" name="reminder" />
     </div>
 
-    <input type="submit" value="Save Task" class="btn btn-block" />
+    <input style="background: black" type="submit" value="Save Task" class="btn btn-block" />
   </form>
 </template>
 
@@ -58,6 +58,10 @@ export default{
 </script>
 
 <style scoped>
+
+input{
+  background: rgba(255, 255, 255, 0.7)
+}
 .add-form {
   margin-bottom: 40px;
 }

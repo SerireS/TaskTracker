@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p> Just some text</p>
+    <p> Template text</p>
     <router-link v-show="homePage" to="/about">About</router-link>
   </footer>
 </template>

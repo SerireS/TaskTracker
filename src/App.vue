@@ -1,8 +1,10 @@
 <template>
+  <div class="bg">
   <div class="container">
   <Header @toggle-add-task="toggleAddTask" title="Task Tracker" :showAddTask="showAddTask" />
     <router-view :showAddTask="showAddTask"></router-view>
     <Footer/>
+  </div>
   </div>
 </template>
 
@@ -46,6 +48,7 @@ body {
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 30px;
   border-radius: 5px;
 }
@@ -71,5 +74,13 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+html {
+  background: url(https://i.pinimg.com/originals/b5/fd/3f/b5fd3fbe984103e08b9482471484394b.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 </style>

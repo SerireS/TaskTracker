@@ -1,16 +1,16 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "lav task tracker",
-      "day": "lige ny",
-      "reminder": true
+      "text": "Create radio?",
+      "day": "Sometime?",
+      "reminder": false,
+      "id": 1
     },
     {
-      "text": "test",
-      "day": "test",
+      "text": "Host",
+      "day": "Soon",
       "reminder": true,
-      "id": "2aICUGk"
+      "id": 2
     }
   ]
 }
